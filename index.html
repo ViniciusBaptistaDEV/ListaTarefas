@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./main.css">
+    <title>Lista de Tarefas</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Lista de tarefas</h1>
+            <h2>Organize a sua vida, e tenha tempo para o que é mais importante!</h2>
+            <h3>Vamos começar?</h3>
+            <button id="botao-iniciar" type="button">Iniciar</button>
+        </header>
+        <div class="container-animacao">
+            <form id="formulario_tarefa">
+                <input id="tarefa" type="text" required placeholder="Digite a sua tarefa">
+                <button type="submit">Adicionar tarefa</button>
+            </form>
+            <ul>
+                <!--Será adicionado as linhas da tabela por meio do "main.js"-->
+            </ul>
+            <div class="container-cancelar">
+                <p>Para deletar as tarefas concluidas, clique no botão abaixo.</p>
+                <button type="button" id="botao-cancelar">Deletar tarefas</button>
+            </div>
+        </div>        
+    </div>
+
+    <footer>
+        <p>&copy Vinicius Baptista - Todos os direitos reservados 2024</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+
+
+
+</html>
